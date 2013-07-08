@@ -22,5 +22,8 @@ $(function() {
         ws.onclose = function () {};
         ws.close()
     };
+
+    setInterval("$('#chat_form').submit()", 1000);    
 });
+
 
